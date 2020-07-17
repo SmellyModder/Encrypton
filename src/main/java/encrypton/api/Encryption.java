@@ -1,9 +1,9 @@
-package smelly.encryption.api;
+package main.java.encrypton.api;
 
 /**
  * @author Luke Tonon
  */
-public abstract class Encryption<C extends EncryptionConfig> {
+public abstract class Encryption<C extends EncryptionConfig<?>> {
 	public abstract String encrypt(String message, C config);
 	
 	public abstract String decrypt(String message, C config);
