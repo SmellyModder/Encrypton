@@ -7,3 +7,5 @@ Encrypton is great for complex configurable layered encryptions.
 Encrypton is also easily extensible so new configurable encryption algorithms can be easily made.
 Encrypton can also have encryptions be configured randomly, making it good for encrypting similar data many times.
 Encrypton comes with a very simple registry for encryptions, making serializing and deserializing encryptions easier.
+
+### Installing
